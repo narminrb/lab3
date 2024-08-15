@@ -1,0 +1,135 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F3F3F3;
+}
+.container{
+  display: flex;
+  width: 100%;
+  height: 1500px;
+}
+.row{
+  width: 100%;
+  height: 100%;
+  gap: 20px;
+  display: flex;
+
+}
+.forms_main{
+ margin-top: 50px;
+  width: 250px;
+  height: 350px;
+  background-color: white;
+  padding: 0 20px;
+  justify-content: center;
+  border-radius: 11px;
+  margin-top: 30px;
+  position: relative;
+  top: 0;
+  /* gap: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  background-color: yellow;
+  justify-content: space-around; */
+}
+.forms a{
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+.forms .img{
+  width: 100%;
+  margin-top: 20px;
+  height: 150px;
+  
+}
+
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+h5{
+  outline: none;
+  text-decoration: none;
+  color: rgb(104, 99, 99);
+  font-size: 15px;
+  
+}
+h4{
+  outline: none;
+  text-decoration: none;
+  color:#FF003C;
+  font-size: 20px;
+  
+}
+.bottom{
+  height: 100px;
+  width: 250px;
+  visibility: hidden;
+  background-color: white;
+  border-radius: 10px 10px 20px 20px;
+  position: absolute;
+
+}
+.forms:hover .bottom{
+  visibility: visible;
+  opacity: 1;
+}
+
+h6{
+  width: 40px;
+  height: 15px;
+  font-size: 14px;
+  color: white;
+  border: 1px;
+  background-color: #FF003C;
+  border-radius: 3px;
+}
+.bottom button {
+  background-color:#FF003C; 
+  border: none; 
+  cursor: pointer; /* Pointer cursor */
+  color: white;
+}
+
+.bottom i {
+  color: rgb(69, 68, 68);
+  font-size: 25px;
+  margin: 0 10px; 
+}
+
+.cart button {
+  background-color: #FF003C;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center; 
+}
+
+.cart button a {
+  color: white;
+  text-decoration: none;
+}
+
+.cart button i {
+  margin-right: 5px; 
+}
+
+.kond_but{
+  margin-top: 30px;
+  background-color: #EDF8F0;
+  border: none;
+  border-radius: 6px;
+  color: green;
+}
+.kond_but a{
+  color: green;
+}
